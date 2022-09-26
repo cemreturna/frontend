@@ -1,26 +1,58 @@
-<html>
-    <HEAD>
-        <title> HTML </title>
-        <meta name="ödev" content="HTML, Kodluyoruz">
-    </HEAD>
- <BODY>
-
-<h1>Cemre Pınar Turna</h1>
-<h2>Hakkımda</h2>
-<p>Merhaba, ben Cemre. İstanbul'da yaşıyorum. Piyano çalmayı, film izlemeyi ve yeni şeyler öğrenmeyi seviyorum.</p>
-<h3>Sevdiğim Müzikler</h3>
-<h4>Goldberg Variations</h4>
-<!--Listeyi de denemek istedim.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlk Web Sayfam</title>
+</head>
+<body>
+<h1 id="header">Cemre Pınar Turna</h1>
+<!--ana baslik altina cizgi ekliyorum-->
+<hr>
+<p>Merhaba, ben Cemre. İstanbul'da yaşıyorum. Piyano çalmayı, film izlemeyi ve yeni şeyler öğrenmeyi seviyorum. Bu patikaya başlamak web geliştirme konusunda ilk adımım oldu. </p>
+<h2>İlgi Alanlarım</h2>
+<ol>
+    <li><a href="#sevdigimmuzikler"><strong>Sevdiğim Müzikler</strong></a></li>
+    <li><a href="#sevdigimkitaplar"><strong>Sevdiğim Kitaplar</strong></a></li>
+    <li><a href="#sevdigimfilmler"><strong>Sevdiğim Filmler</strong></a></li>
+</ol>
+<h3 id="sevdigimmuzikler">Sevdiğim Müzikler</h3>
+<div>
 <ul>
-<li>Glenn Gould'dan dinlemeyi tercih ediyorum.</li>
-<li>J.S. Bach tarafından bestelenmiştir.</li>
+    <li><a href="https://www.youtube.com/watch?v=p4yAB37wG5s"
+        target="_blank">Goldberg Variations</a></li>
+    <li><a href="https://www.youtube.com/watch?v=ADN1lLEp3H0"
+        target="_blank">500 Miles</a></li>
+    <li><a href="https://www.youtube.com/watch?v=WV3dcuPyv4M"
+        target="_blank">Dust It Off</a></li>
 </ul>
-<h3>Sevdiğim Filmler</h3>
-<h4>Un Homme Qui Dort</h4>
-<p>Filmini kitabından daha çok seviyorum.</p>
-<!--Kodluyoruz linkini nereye ekleyeceğimi anlamadığım için sayfanın altına ekliyorum.-->
-<a href="htpps://www.kodluyoruz.org">Kodluyoruz</a>
-
- </BODY>
-
+</div>
+<div>
+<h3 id="sevdigimkitaplar">Sevdiğim Kitaplar</h3>
+<ul>
+    <li><a href="https://www.goodreads.com/book/show/8584516-uyuyan-adam"
+        target="_blank">Huzursuzluğun Kitabı</a></li>
+    <p><span style=color:red>Fernando Pessoa tarafından yazılmıştır.</p>
+    <li>Uyuyan Adam</li>
+    <p><span style=color:red>Georges Perec tarafından yazılmıştır.</p> <!--filmini daha çok seviyorum:))-->
+    <li>Onca Yoksulluk Varken</li>
+    <p><span style=color:red>Romain Gary tarafından yazılmıştır.</p>
+</ul>
+</div>
+<h3 id="sevdigimfilmler">Sevdiğim Filmler</h3>
+<div>
+<ul>
+    <li><a href="https://www.imdb.com/title/tt0192718/"
+        target="_blank">Uyuyan Adam</a></li>
+<img src="https://f4.bcbits.com/img/a3566050873_5.jpg" width="200" height="200" alt="Uyuyan Adam favori sahnem"> <!--websitesinden aldim-->
+<img src="images/img-1.jpg" width="200" height="200" alt="Uyuyan Adam">
+<!--bilgisayarima kaydettikten sonra kullandim-->
+</ul>
+<p><strong>İletişim</strong></p>
+<ul>
+<li><a href="mailto:turnacemre@gmail.com"><strong>Email</strong></a></li>
+</ul>
+<a href="#header"><strong>Başa Dön</strong></a>
+</body>
 </html>
