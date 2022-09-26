@@ -19,7 +19,7 @@
 <h4>Un Homme Qui Dort</h4>
 <p>Filmini kitabından daha çok seviyorum.</p>
 <!--Kodluyoruz linkini nereye ekleyeceğimi anlamadığım için sayfanın altına ekliyorum.-->
-[Kodluyoruz](htpps://www.kodluyoruz.org)
+<a href="htpps://kodluyoruz.org">Kodluyoruz</a>
 
  </BODY>
 
